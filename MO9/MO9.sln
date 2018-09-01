@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MO9", "MO9\MO9.pyproj", "{D6AB6FBC-D1B6-45F3-9DD9-67CFACA1F33E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6AB6FBC-D1B6-45F3-9DD9-67CFACA1F33E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6AB6FBC-D1B6-45F3-9DD9-67CFACA1F33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFFEE809-E838-4CAA-8ADA-81E3F5C28F39}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,66 @@
+print("Метод Логранжа 09")
+print("Ввидите N")
+n=int(input())
+a0=n/2
+print("a0",end="=")
+print(n/2)
+b0=n/2+1
+print("b0",end="=")
+print(n/2+1)
+print("a1",end="=")
+a1=n*2*n
+print(n*2*n)
+print("b1",end="=")
+b1=n*4*n
+print(n*4*n)
+print("a2",end="=")
+a2=n*3/4
+print(n*3/4)
+print("b2",end="=")
+b2=n/4
+print(n/4)
+print("D",end="=")
+D=8*n/3
+print(8*n/3)
+x1=-a1/(a2*2)
+x2=-b1/(b2*2)
+
+print("исходная функция")
+print("f(x)",end="=")
+print(a0+b0,end="+")
+print(a1,end="x1+")
+print(b1,end="x2+")
+print(a2,end="x1*x1+")
+print(b2,end="x2*x2\n")
+
+print("функция Лагранжа")
+print("L(x)",end="=")
+print(a0+b0,end="+")
+print(a1,end="x1+")
+print(b1,end="x2+")
+print(a2,end="x1*x1+")
+print(b2,end="x2*x2+")
+print("h(x1+x2-",end="")
+print(D,end=")\n")
+
+print("функция ограничений")
+print("q(x)",end="=")
+print("x1+x2-",end="")
+print(D)
+
+print("x1",end="=")
+print(x1,end="-")
+print("h",end="/")
+print(a2*2)
+print("x2",end="=")
+print(x2,end="-")
+print("h",end="/")
+print(b2*2)
+print("h",end="=")
+k=1/(a2*2)+1/(b2*2)
+h=(-D-a1/(a2*2)-b1/(b2*2))/k
+print(h)
+print("x1",end="=")
+print(x1-h/(a2*2))
+print("x2",end="=")
+print(x2-h/(b2*2))
