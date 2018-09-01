@@ -1,0 +1,11 @@
+from H2 import *
+hRead = open("F:\\test\\2.1\\14.txt", "r")
+hWrite = open("F:\\test\\2.1\\ans14.txt","w")
+x0=float(hRead.readline())
+e=float(hRead.readline())
+hWrite.write("метод Ньютена\n")
+hWrite.write(str(metN(x0,e)))
+hWrite.write("\nметод итераций\n")
+hWrite.write(str(metI(x0,e)))
+hRead.close()
+hWrite.close()
