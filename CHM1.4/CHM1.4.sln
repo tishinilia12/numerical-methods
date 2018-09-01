@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CHM1.4", "CHM1.4\CHM1.4.pyproj", "{E6B1687C-38EE-43FA-8F94-094FD23108FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6B1687C-38EE-43FA-8F94-094FD23108FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6B1687C-38EE-43FA-8F94-094FD23108FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C10AF8C4-671F-44E5-A30D-8B41B6581402}
+	EndGlobalSection
+EndGlobal
